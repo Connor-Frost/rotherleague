@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Rother League",
-    "currentPage": "index.html",
+    "currentPage": "contact.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -11,9 +11,11 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
     "siteFonts": [],
-    "uniqCompNum": 18,
+    "uniqCompNum": 40,
     "versionPublish": "4.8.1",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
@@ -37,12 +39,12 @@
             "color": "#ffffff",
             "hamburgerColor": "#000"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutus.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"contact.html\">Contact</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"teams.html\">Teams</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"rules.html\">Rules</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Sign Up</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutus.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"contact.html\">Contact</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"teams.html\">Teams</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"rules.html\">Rules</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Sign Up</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Gallery</a></li>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-2-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-sm-180x180.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -102,7 +104,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#37383e",
@@ -112,7 +114,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-2-265x265.png",
+              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-sm-180x180.png",
               "width": 265,
               "active": true,
               "link": "",
@@ -140,7 +142,7 @@
     "signup.html": {
       "settings": {
         "title": "Sign Up",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -154,12 +156,12 @@
             "color": "#ffffff",
             "hamburgerColor": "#000"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutus.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"contact.html\">Contact</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"teams.html\">Teams</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"rules.html\">Rules</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Sign Up</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutus.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"contact.html\">Contact</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"teams.html\">Teams</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"rules.html\">Rules</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Sign Up</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Gallery</a></li>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-2-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-sm-180x180.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -191,7 +193,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/lewes-768x1024.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -203,8 +205,8 @@
             "overlayColor": "#fff",
             "overlayOpacity": 0.7
           },
-          "title": "Easy to Use!",
-          "caption": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
+          "title": "Registration",
+          "caption": "",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -214,10 +216,72 @@
         },
         {
           "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "inverse": false,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#dddddd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Club Registration",
+          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"page6.html\" data-toolbar=\"-mbrBtnMove\">Start your Journey</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-k"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "inverse": false,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#dddddd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Team Registration",
+          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"page7.html\" data-toolbar=\"-mbrBtnMove\">Start your Journey</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-l"
+        },
+        {
+          "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#37383e",
@@ -227,7 +291,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-2-265x265.png",
+              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-sm-180x180.png",
               "width": 265,
               "active": true,
               "link": "",
@@ -255,7 +319,7 @@
     "teams.html": {
       "settings": {
         "title": "Teams",
-        "order": 2,
+        "order": 5,
         "footer_custom": ""
       },
       "components": [
@@ -292,7 +356,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#37383e",
@@ -302,7 +366,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-2-265x265.png",
+              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-sm-180x180.png",
               "width": 265,
               "active": true,
               "link": "",
@@ -336,12 +400,12 @@
             "color": "#ffffff",
             "hamburgerColor": "#000"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutus.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"contact.html\">Contact</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"teams.html\">Teams</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"rules.html\">Rules</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Sign Up</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutus.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"contact.html\">Contact</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"teams.html\">Teams</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"rules.html\">Rules</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Sign Up</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Gallery</a></li>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-2-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-sm-180x180.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -371,7 +435,7 @@
     "rules.html": {
       "settings": {
         "title": "Rules",
-        "order": 3
+        "order": 6
       },
       "components": [
         {
@@ -385,12 +449,12 @@
             "color": "#ffffff",
             "hamburgerColor": "#000"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutus.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"contact.html\">Contact</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"teams.html\">Teams</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"rules.html\">Rules</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Sign Up</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutus.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"contact.html\">Contact</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"teams.html\">Teams</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"rules.html\">Rules</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Sign Up</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Gallery</a></li>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-2-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-sm-180x180.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -448,7 +512,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#37383e",
@@ -458,7 +522,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-2-265x265.png",
+              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-sm-180x180.png",
               "width": 265,
               "active": true,
               "link": "",
@@ -486,7 +550,9 @@
     "contact.html": {
       "settings": {
         "title": "Contact",
-        "order": 4
+        "order": 7,
+        "header_custom": "",
+        "footer_custom": ""
       },
       "components": [
         {
@@ -500,12 +566,12 @@
             "color": "#ffffff",
             "hamburgerColor": "#000"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutus.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"contact.html\">Contact</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"teams.html\">Teams</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"rules.html\">Rules</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Sign Up</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutus.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"contact.html\">Contact</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"teams.html\">Teams</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"rules.html\">Rules</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Sign Up</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Gallery</a></li>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-2-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-sm-180x180.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -542,7 +608,7 @@
             "bgColor": "#fff",
             "overlay": true,
             "overlayColor": "#ffffff",
-            "overlayOpacity": "0.2"
+            "overlayOpacity": "0.7"
           },
           "title": "Contact Form",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black-outline btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>",
@@ -585,7 +651,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#37383e",
@@ -595,7 +661,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-2-265x265.png",
+              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-sm-180x180.png",
               "width": 265,
               "active": true,
               "link": "",
@@ -623,7 +689,7 @@
     "aboutus.html": {
       "settings": {
         "title": "About us",
-        "order": 5
+        "order": 8
       },
       "components": [
         {
@@ -637,12 +703,12 @@
             "color": "#ffffff",
             "hamburgerColor": "#000"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutus.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"contact.html\">Contact</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"teams.html\">Teams</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"rules.html\">Rules</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Sign Up</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutus.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"contact.html\">Contact</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"teams.html\">Teams</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"rules.html\">Rules</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Sign Up</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Gallery</a></li>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-2-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-sm-180x180.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -674,7 +740,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/battle-abbey-994x1024.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#fff",
@@ -687,7 +753,7 @@
             "overlayOpacity": 0.7
           },
           "title": "About Us",
-          "caption": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
+          "caption": "A week before the game...\r<div>The home side must confirm with the Referee and opponents the kick-off time, venue, directions to the pitch, and kit colours. This must be done no later than five days before the game is due to take place.\r</div><div>\r</div><div>If, due to weather conditions, there is some doubt as to whether the game will take place, please make certain that you keep in contact (...by phone, not just via e-mail or text, to make sure!).\r</div><div>\r</div><div>Just to be clear...The Rother League currently permits its fixtures to be played on either Saturdays or Sundays, according to the stated preference of the home team. League fixtures are published in full at the start of the season, so all teams have ample advance warning and are therefore expected to fulfil their fixtures as laid down by the League. (Please note: The unavailability of the team’s manager is NOT an acceptable reason for failing to fulfil a fixture. Find someone else to take your team for the day!). No changes to the date of the fixture may be made without the PRIOR agreement of both the League’s Fixtures Secretary AND your opposition.</div>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -700,7 +766,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#37383e",
@@ -710,7 +776,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-2-265x265.png",
+              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-sm-180x180.png",
               "width": 265,
               "active": true,
               "link": "",
@@ -732,6 +798,411 @@
           ],
           "_name": "contacts1",
           "_anchor": "contacts1-h"
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "title": "Club Signup",
+        "order": 3
+      },
+      "components": [
+        {
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "color": "#ffffff",
+            "hamburgerColor": "#000"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutus.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"contact.html\">Contact</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"teams.html\">Teams</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"rules.html\">Rules</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Sign Up</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Gallery</a></li>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-sm-180x180.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">The Rother League</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          },
+          "_anchor": "menu-m"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/lewes-768x1024.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "Club Registration",
+          "caption": "",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-n"
+        },
+        {
+          "_params": {
+            "blockTitle": "<h3>Block Title</h3>",
+            "HTMLCode": "\t<p><p>Fill in this form and your club application will be reviewed for suitability. Please also download and return the forms at the bottom of this page to the league registration secretary.</p>\n<p><iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLScATmiFKb21A7HJPLHXO7PxWz-yCc5W9FOHl7Mvem_yOhTBRQ/viewform?embedded=true\" width=\"700\" height=\"520\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading...</iframe></p>\n<p>Please download and return the additional forms to complete your registration</p>\n<ul>\n<li><a data-id=\"2190\" href=\"/media/1035/rother-league-club-agreement-form-2018-19.pdf\" title=\"Rother League - Club Agreement Form (2018-19).pdf\">Rother League - Club Agreement Form</a></li>\n<li><a href=\"/media/1036/rother-league-club-membership-application-form-2018-19.pdf\" title=\"Rother League - Club Membership Application Form (2018-19).pdf\">Rother League - Club Membership Application Form</a></li>\n</ul></p>",
+            "extEdit": true,
+            "paddingTop": "0",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "blockTitle": "<h3>Club Registration</h3>",
+          "HTMLCode": "\t<p><p>Fill in this form and your club application will be reviewed for suitability. Please also download and return the forms at the bottom of this page to the league registration secretary.</p>\n<p><iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLScATmiFKb21A7HJPLHXO7PxWz-yCc5W9FOHl7Mvem_yOhTBRQ/viewform?embedded=true\" width=\"700\" height=\"520\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading...</iframe></p>\n<p>Please download and return the additional forms to complete your registration</p>\n<ul>\n<li><a data-id=\"2190\" href=\"/media/1035/rother-league-club-agreement-form-2018-19.pdf\" title=\"Rother League - Club Agreement Form (2018-19).pdf\">Rother League - Club Agreement Form</a></li>\n<li><a href=\"/media/1036/rother-league-club-membership-application-form-2018-19.pdf\" title=\"Rother League - Club Membership Application Form (2018-19).pdf\">Rother League - Club Membership Application Form</a></li>\n</ul></p>",
+          "paddingTop": ".block {padding-bottom:0px; padding-top:0px;}",
+          "alias": "htmlblock",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "htmlblock-block",
+          "_anchor": "htmlblock-block-x"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-sm-180x180.png",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text3": "<b>Related\n</b><div><a href=\"http://www.sussexfa.com/\">Sussex FA</a>\n</div><div><a href=\"http://www.facebook.com/SussexCountyFA\">Sussex County FA - Facebook</a>\n</div><div><a href=\"http://twitter.com/SussexCountyFA\">Sussex County FA - Twitter</a>\n</div><div><a href=\"http://www.sussexfa.com/referees/becoming-a-referee\">Sussex FA - Becoming a Referee</a>\n</div><div><a href=\"http://fulltime-league.thefa.com/ListPublicResult.do?league=1151657\">Ashford and District Youth Football League</a>\n</div><div><a href=\"http://fulltime-league.thefa.com/Index.do?league=7943450\">Arun and Chichester Youth League</a>\n</div><div><a href=\"http://fulltime-league.thefa.com/Index.do?league=5957712\">Horsham &amp; District Youth Football League</a>\n</div><div><a href=\"http://fulltime-league.thefa.com/Index.do?league=1375655\">Mid Sussex Youth &amp; Minor League</a>\n</div><div><a href=\"http://full-time.thefa.com/Index.do?league=681144\">Rother Youth Football League</a>\n</div><div><a href=\"http://fulltime-league.thefa.com/Index.do?league=5559379\">Sussex Girls Football League</a>\n</div><div><a href=\"http://fulltime-league.thefa.com/Index.do?league=1697069\">Sussex Sunday Youth League</a></div>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-q"
+        }
+      ]
+    },
+    "page7.html": {
+      "settings": {
+        "title": "Team signup",
+        "order": 4
+      },
+      "components": [
+        {
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "color": "#ffffff",
+            "hamburgerColor": "#000"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutus.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"contact.html\">Contact</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"teams.html\">Teams</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"rules.html\">Rules</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Sign Up</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Gallery</a></li>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-sm-180x180.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">The Rother League</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          },
+          "_anchor": "menu-r"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/lewes-768x1024.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "Team Registration",
+          "caption": "",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-s"
+        },
+        {
+          "_params": {
+            "blockTitle": "<h3>Block Title</h3>",
+            "HTMLCode": "<p>Fill in this form and your team application will be reviewed for suitability</p>\n<p><iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSezVC5bjacFtLDYBBG8v2Zf3w0vIxssV-J8G-p-syieT2zB5w/viewform?embedded=true\" width=\"700\" height=\"520\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading...</iframe></p>\n<p>The information requested above will be used in the preparation of the fixtures and referee allocations. The kick-off time will not be binding, but where more than one team uses the same pitch, it should help to ensure that all scheduled home games can be accommodated.</p>\n<p><strong>Preferred choice of divisions <u>is not guaranteed</u>, but will serve as a guide for the composition of the League.</strong></p>\n<p>If you share a pitch with another Club in the League, please ensure you liaise with each other so that the ground and pitch is identified by the same description.  <strong>Ensure that your Club have adequate changing facilities for players and officials</strong></p>\n<p><strong>The managers details are for Competition information and may be published in the League Handbook</strong></p>",
+            "extEdit": true,
+            "paddingTop": 20,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "blockTitle": "<h3>Team Registration</h3>",
+          "HTMLCode": "<p>Fill in this form and your team application will be reviewed for suitability</p>\n<p><iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSezVC5bjacFtLDYBBG8v2Zf3w0vIxssV-J8G-p-syieT2zB5w/viewform?embedded=true\" width=\"700\" height=\"520\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading...</iframe></p>\n<p>The information requested above will be used in the preparation of the fixtures and referee allocations. The kick-off time will not be binding, but where more than one team uses the same pitch, it should help to ensure that all scheduled home games can be accommodated.</p>\n<p><strong>Preferred choice of divisions <u>is not guaranteed</u>, but will serve as a guide for the composition of the League.</strong></p>\n<p>If you share a pitch with another Club in the League, please ensure you liaise with each other so that the ground and pitch is identified by the same description.  <strong>Ensure that your Club have adequate changing facilities for players and officials</strong></p>\n<p><strong>The managers details are for Competition information and may be published in the League Handbook</strong></p>",
+          "paddingTop": ".block {padding-bottom:0px; padding-top:0px;}",
+          "alias": "htmlblock",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "htmlblock-block",
+          "_anchor": "htmlblock-block-z"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-sm-180x180.png",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text3": "<b>Related\n</b><div><a href=\"http://www.sussexfa.com/\">Sussex FA</a>\n</div><div><a href=\"http://www.facebook.com/SussexCountyFA\">Sussex County FA - Facebook</a>\n</div><div><a href=\"http://twitter.com/SussexCountyFA\">Sussex County FA - Twitter</a>\n</div><div><a href=\"http://www.sussexfa.com/referees/becoming-a-referee\">Sussex FA - Becoming a Referee</a>\n</div><div><a href=\"http://fulltime-league.thefa.com/ListPublicResult.do?league=1151657\">Ashford and District Youth Football League</a>\n</div><div><a href=\"http://fulltime-league.thefa.com/Index.do?league=7943450\">Arun and Chichester Youth League</a>\n</div><div><a href=\"http://fulltime-league.thefa.com/Index.do?league=5957712\">Horsham &amp; District Youth Football League</a>\n</div><div><a href=\"http://fulltime-league.thefa.com/Index.do?league=1375655\">Mid Sussex Youth &amp; Minor League</a>\n</div><div><a href=\"http://full-time.thefa.com/Index.do?league=681144\">Rother Youth Football League</a>\n</div><div><a href=\"http://fulltime-league.thefa.com/Index.do?league=5559379\">Sussex Girls Football League</a>\n</div><div><a href=\"http://fulltime-league.thefa.com/Index.do?league=1697069\">Sussex Sunday Youth League</a></div>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-v"
+        }
+      ]
+    },
+    "page8.html": {
+      "settings": {
+        "title": "Gallery",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "color": "#ffffff",
+            "hamburgerColor": "#000"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutus.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"contact.html\">Contact</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"teams.html\">Teams</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"rules.html\">Rules</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Sign Up</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"signup.html\">Gallery</a></li>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-sm-180x180.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">The Rother League</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          },
+          "_anchor": "menu-10"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/football-for-over-50s-1280x960-800x600.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/football-for-over-50s-1280x960-800x600-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/rother-legaue-back-2-960x640-800x533.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/rother-legaue-back-2-960x640-800x533-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/902d0c48-095e-4919-81aa-4b8f4d3f198c-1600x1066-800x533.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/902d0c48-095e-4919-81aa-4b8f4d3f198c-1600x1066-800x533-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-13"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#37383e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/rother-league-football-logo-sm-180x180.png",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
+          "text2": "<strong>Contacts</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text3": "<b>Related\n</b><div><a href=\"http://www.sussexfa.com/\">Sussex FA</a>\n</div><div><a href=\"http://www.facebook.com/SussexCountyFA\">Sussex County FA - Facebook</a>\n</div><div><a href=\"http://twitter.com/SussexCountyFA\">Sussex County FA - Twitter</a>\n</div><div><a href=\"http://www.sussexfa.com/referees/becoming-a-referee\">Sussex FA - Becoming a Referee</a>\n</div><div><a href=\"http://fulltime-league.thefa.com/ListPublicResult.do?league=1151657\">Ashford and District Youth Football League</a>\n</div><div><a href=\"http://fulltime-league.thefa.com/Index.do?league=7943450\">Arun and Chichester Youth League</a>\n</div><div><a href=\"http://fulltime-league.thefa.com/Index.do?league=5957712\">Horsham &amp; District Youth Football League</a>\n</div><div><a href=\"http://fulltime-league.thefa.com/Index.do?league=1375655\">Mid Sussex Youth &amp; Minor League</a>\n</div><div><a href=\"http://full-time.thefa.com/Index.do?league=681144\">Rother Youth Football League</a>\n</div><div><a href=\"http://fulltime-league.thefa.com/Index.do?league=5559379\">Sussex Girls Football League</a>\n</div><div><a href=\"http://fulltime-league.thefa.com/Index.do?league=1697069\">Sussex Sunday Youth League</a></div>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-11"
         }
       ]
     }
